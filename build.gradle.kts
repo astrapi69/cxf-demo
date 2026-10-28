@@ -24,10 +24,10 @@ repositories {
 }
 
 dependencies {
-	compile("org.apache.cxf:cxf-core:3.3.3")
-	compile("org.apache.cxf:cxf-spring-boot-starter-jaxrs:3.3.3")
-	compile("org.apache.cxf:cxf-rt-rs-service-description:3.3.3")
-	compile("org.apache.cxf:cxf-rt-rs-service-description-swagger:3.3.3")
+	compile("org.apache.cxf:cxf-core:3.6.12")
+	compile("org.apache.cxf:cxf-spring-boot-starter-jaxrs:3.6.12")
+	compile("org.apache.cxf:cxf-rt-rs-service-description:3.6.12")
+	compile("org.apache.cxf:cxf-rt-rs-service-description-swagger:3.6.12")
 	compile("org.webjars:swagger-ui:3.23.8")
 	runtimeOnly("com.h2database:h2:1.4.197")
 	implementation("com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider")
